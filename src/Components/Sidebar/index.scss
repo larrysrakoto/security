@@ -1,0 +1,45 @@
+.side-bar {
+  width: 20%;
+  height: 85vh;
+
+  .nav {
+    display: flex;
+    height: 50%;
+    width: 20vw;
+    flex-direction: column;
+    gap: 4px;
+    
+    .nav-li{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      width: 50%;
+      height: 20%;
+
+      .icon{
+        width: 30%;
+        height: 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &.home{
+          background-image: url('../../Assets/home.svg');
+        }
+        &.service{
+          background-image: url('../../Assets/driver.svg');
+        }
+        &.about{
+          background-image: url('../../Assets/car.svg');
+        }
+      }
+
+      .label{
+        font-family: sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        color: grey;
+      }
+    }
+  }
+}
