@@ -1,3 +1,18 @@
-.App{
+.App {
   padding: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+}
+
+.side-bar{
+  position: sticky;
+  top: 80px;
 }
